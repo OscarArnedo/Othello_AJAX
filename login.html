@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Log In</title>        
+        <script type="text/javascript" src="login.js" defer></script>
+        <style>
+            .contacto{
+                border: 1px solid #CED5D7;
+                border-radius: 6px;
+                padding: 45px 45px 20px;
+                margin-bottom: 50px;
+                background-color: rgba(255, 255, 255, 0.658);
+                box-shadow: 0px 5px 10px #B5C1C5, 0 0 0 10px rgb(238, 245, 247) inset;
+                width: 50%;
+                font-family: 'Bad Script', cursive;
+            }
+            .contacto label{
+                display: block;
+                font-weight: bold;
+            }
+            .contacto div{
+                margin-bottom: 15px;
+            }
+            .contacto input[type='text'], .contacto textarea{
+                padding: 7px 6px;
+                width: 400px;
+                border: 1px solid #CED5D7;
+                resize: none;
+                box-shadow:0 0 0 3px #EEF5F7;
+                margin: 5px 0;
+            }
+            .contacto input[type='text']:focus, .contacto textarea:focus{
+                outline: none;
+                box-shadow:0 0 0 3px #dde9ec;
+            }
+            .contacto input[type='submit']{
+                border: 1px solid #CED5D7;
+                box-shadow:0 0 0 3px #EEF5F7;
+                padding: 8px 8px;
+                border-radius: 20px;
+                font-weight: bold;
+                text-shadow: 1px 1px 0px white;
+                font-family: 'Luckiest Guy', cursive;
+                background: #e4f1f6;
+                background: -moz-linear-gradient(top, #e4f1f6 0%, #cfe6ef 100%);
+                background: -webkit-linear-gradient(top, #e4f1f6 0%,#cfe6ef 100%);
+            }
+            .contacto input[type='submit']:hover{
+                background: #edfcff;
+                background: -moz-linear-gradient(top, #edfcff 0%, #cfe6ef 100%);
+                background: -webkit-linear-gradient(top, #edfcff 0%,#cfe6ef 100%);
+            }
+            .contacto input[type='submit']:active{
+                background: #cfe6ef;
+                background: -moz-linear-gradient(top, #cfe6ef 0%, #edfcff 100%);
+                background: -webkit-linear-gradient(top, #cfe6ef 0%,#edfcff 100%);
+            }
+        </style>
+    </head>
+    <body>
+        <br><br>
+        <center><h1>Othello Game</h1>
+        <br>
+        <form class="contacto" action="/desa" name="registre">
+            <h3>Registrar-se</h3>
+            <b>Nom:</b> <input type="text" placeholder="Nom" name="nom"><br><br>
+            <b>Contrasenya:</b> <input type="password" placeholder="Contrasenya" name="contrasenya"><br><br>      
+            <input type="submit" value="Registra't">
+        </form></center>
+    </body>
+</html>
